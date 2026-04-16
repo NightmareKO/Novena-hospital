@@ -1,0 +1,13 @@
+# Security
+.env
+
+# Database
+db.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Static/Media
+staticfiles/
+media/

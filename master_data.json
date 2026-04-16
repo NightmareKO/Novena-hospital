@@ -1,0 +1,3247 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$x0nApBxdCryYYOKOx8E7hv$+pGl7A0BElsXjyvvkB2vNfCganhSgTt9G0QWDMgz730=",
+    "last_login": "2026-04-10T09:50:32.831Z",
+    "is_superuser": true,
+    "username": "jagran",
+    "first_name": "",
+    "last_name": "",
+    "email": "jagran@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-09T07:32:41.590Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ZZ6vhKRwOsyG2bJZlZ4JEu$7entw1kxpN4et2a/hI/HtWdLxTPEjFOH9esQOmDyQ/Q=",
+    "last_login": "2026-04-12T18:39:29.730Z",
+    "is_superuser": true,
+    "username": "lenovo",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-12T17:20:17.593Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0sjyk1oq9q0e81vxx47uv9pc0mqsjxwv",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8C7h07zeQgRmkaiAp7cr479qkC93ec859sQjbWuM2aIkzsjNT7PS7JcgPajvAO7Rb57m3dZkT3xV-0MGvHel5Ody_gwqjfmugYI0TwiCFYiTIoBQmZ7zSzhvvyXkVikXCUtBo1EBWBAWu5MlOUrL3B9NaN40:1wCuIh:1MOJ_ShF5ddjWwZTv5L9H5oCiKNd--0ELnzGh7RDX9g",
+    "expire_date": "2026-04-29T07:04:39.443Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ct9bkjo0bqhbx4wdpyqjt4swkza874no",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8C7h07zeQgRmkaiAp7cr479qkC93ec859sQjbWuM2aIkzsjNT7PS7JcgPajvAO7Rb57m3dZkT3xV-0MGvHel5Ody_gwqjfmugYI0TwiCFYiTIoBQmZ7zSzhvvyXkVikXCUtBo1EBWBAWu5MlOUrL3B9NaN40:1wCqRn:OUTEtEgucxcc03tFP49nWlRiPYjWpxte0cc_imJJy4U",
+    "expire_date": "2026-04-29T02:57:47.895Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jwek8mg7b2udutvm34h9vjg757sssgdf",
+  "fields": {
+    "session_data": "e30:1wCtJt:mwrdmZMjR1YkmAkAgmT5Jx1ZrGEFOBWQhZ9de0q-jug",
+    "expire_date": "2026-04-29T06:01:49.694Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ujad7klwt724xlwwjsnimk3kunteixij",
+  "fields": {
+    "session_data": "e30:1wCpuK:7RXEbFep_0P9iutQPwRqgJHDDgeVGgXQoU53h2Ahp-s",
+    "expire_date": "2026-04-29T02:23:12.912Z"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 6,
+  "fields": {
+    "department_name": "Casualty Department",
+    "department_description": "The casualty department is also known as the emergency department which deals with emergency conditions or provides immediate treatment. In this department, patients are assessed carefully and provided immediate treatment and care before being sent for further treatment in a specialised department. This department is equipped to handle all kinds of emergencies and provides service 24/7 in the hospital.",
+    "department_image": "department/CasualtyDepartment.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 7,
+  "fields": {
+    "department_name": "Operating Theatre (OT)",
+    "department_description": "Operating theatre is also known as operating room or operating suite or operation suite. OT deals with surgical operations where surgeons perform surgery in an aseptic environment. OT rooms have good lighting, controlled humidity and temperature. Operating rooms are generally supported by an anaesthetic room, preparation room, scrub room and dirty utility room.",
+    "department_image": "department/OperatingTheatre_OT.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 8,
+  "fields": {
+    "department_name": "Intensive Care Unit (ICU)",
+    "department_description": "Intensive care unit is also known as critical care unit (CCU), intensive treatment unit (ITU) or intensive therapy unit. Intensive care unit deals with life-threatening or severe injuries and illnesses that require close monitoring from life support devices, and constant care. In ICU, patients are monitored and staffed by highly trained physicians, nurses and respiratory therapists. Common equipment in an intensive care unit includes a mechanical ventilator, cardiac monitor, defibrillator, high-flow nasal cannula, endotracheal tube, arterial line, infusion pumps, central line, nasogastric tube, nasogastric feed pump, urinary catheter.",
+    "department_image": "department/IntensiveCareUnit_ICU.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 9,
+  "fields": {
+    "department_name": "Anesthesiology Department",
+    "department_description": "In this department, doctors administer anaesthesia to the patients before various procedures and surgeries. The different types of anaesthesia provided are - general anaesthesia, nerve plexus blocks, central neuraxial anaesthesia, IV sedation, and monitored anaesthesia care.",
+    "department_image": "department/AnesthesiologyDepartment.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 10,
+  "fields": {
+    "department_name": "Cardiology Department",
+    "department_description": "The cardiology department deals with the human heart and circulation problems. It provides services on an inpatient and outpatient basis. In this department, a cardiologist prescribes some tests and some procedures are performed such as angioplasty, inserting a pacemaker, atherectomy, heart catheterization, stent implantation etc. The cardiology department contains equipment are ECG machine, ventilator, bedside monitor, syringe pump, and defibrillator.",
+    "department_image": "department/CardiologyDepartment.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 11,
+  "fields": {
+    "department_name": "ENT Department",
+    "department_description": "The ENT department deals with the investigation and treatment of ear, nose and throat disorders. The ENT department deals with various disorders such as: General ear, nose and throat diseases - Cancers of the neck and head region - Neck lumps - ENT allergy problems - Balance and hearing disorders - Salivary gland diseases - Voice disorders - Surgical procedures of ENT",
+    "department_image": "department/ENTDepartment.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 12,
+  "fields": {
+    "department_name": "Geriatric Department",
+    "department_description": "Geriatric department deals with elderly people, their illness and treatment by specialized health personnel. The aim of a geriatric department is to maintain the physical and mental well-being of older people.",
+    "department_image": "department/GeriatricDepartment.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 13,
+  "fields": {
+    "department_name": "Gastroenterology Department",
+    "department_description": "This department deals with digestive system diseases and their management. In this department, gastroenterologists investigate, diagnose, treat and prevent all kinds of gastrointestinal problems such as peptic ulcer, gastritis, gallstones, indigestion, faecal incontinence, Hirschsprung disease etc. and perform various surgical procedures. Some special instruments are used in this department such as gastroscope, duodenoscope, enteroscope, colonoscope, video capsule, rigid sigmoidoscope etc.",
+    "department_image": "department/GastroenterologyDepartment.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 14,
+  "fields": {
+    "department_name": "General Surgery",
+    "department_description": "In this department perform various surgical procedures. Some of the common surgical procedures performed are thyroid surgery, colon surgery, gall bladder surgery, breast surgery etc.",
+    "department_image": "department/GeneralSurgery.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 15,
+  "fields": {
+    "department_name": "Gynaecology Department",
+    "department_description": "The gynaecology department deals with investigation, treatment and prevention of female reproductive system and urinary tract problems. Some of the common problems which are investigated and treated are infertility, incontinence, endometritis etc.",
+    "department_image": "department/GynaecologyDepartment.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 16,
+  "fields": {
+    "department_name": "Haematology Department",
+    "department_description": "The haematology department deals with investigation, treatment and prevention of blood diseases. This department closely works with the hospital laboratory.",
+    "department_image": "department/HaematologyDepartment.jpeg"
+  }
+},
+{
+  "model": "health.department",
+  "pk": 17,
+  "fields": {
+    "department_name": "Paediatrics Department",
+    "department_description": "The paediatrics department deals with infants, children and adolescents. This department deals with some significant diseases such as infectious diseases, congenital diseases, mental disorders and childhood cancer.",
+    "department_image": "department/PaediatricsDepartment.jpeg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 5,
+  "fields": {
+    "department_name": 11,
+    "doctor_full_name": "Dr. Adeel Khan",
+    "gender": "Male",
+    "age": 42,
+    "education_status": "MBBS, MS ENT",
+    "work_experience": 15,
+    "email": "adeel.khan@novena.com",
+    "mobile_number": "9876500011",
+    "doctor_description": "Dr. Adeel Khan is a highly experienced ENT specialist with more than 15 years of clinical practice in diagnosing, treating, and managing a wide range of ear, nose, and throat disorders. He regularly attends patients suffering from chronic sinusitis, nasal blockage, throat infections, tonsillitis, hearing difficulty, ear discharge, balance disorders, and allergy-related ENT conditions. Over the years, he has built a strong reputation for combining accurate diagnosis with practical treatment planning, ensuring that each patient receives care suited to their age, symptoms, and medical background. He is especially known for his ability to explain ENT conditions in simple language, which helps patients and families understand the cause of the problem and the expected recovery process. His clinical approach focuses on early detection of complications, timely medication support, and proper follow-up care to prevent recurring ENT problems. He believes that effective ENT treatment is not only about controlling symptoms but also about improving breathing comfort, hearing quality, speech clarity, and overall day-to-day well-being for every patient.",
+    "available_work_hours": 6,
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "doctor_image": "doctor/Caio_Castro.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 6,
+  "fields": {
+    "department_name": 11,
+    "doctor_full_name": "Dr. Sana Malik",
+    "gender": "Female",
+    "age": 38,
+    "education_status": "MBBS, DLO",
+    "work_experience": 11,
+    "email": "sana.malik@novena.com",
+    "mobile_number": "9876500012",
+    "doctor_description": "Dr. Sana Malik is a dedicated ENT physician with over 11 years of experience in providing specialized care for disorders involving the ear, nose, throat, and related head and neck structures. She commonly manages patients with ear pain, throat irritation, sinus infection, nasal allergy, voice strain, tonsil enlargement, and hearing-related complaints, and she is appreciated for her attentive and patient-friendly consultation style. Her practice emphasizes careful examination, detailed symptom evaluation, and a treatment strategy that aims to give both immediate relief and long-term improvement. She is particularly skilled in dealing with recurring ENT infections and allergy-triggered conditions that affect everyday comfort, sleep quality, and communication ability. Patients value her for listening carefully, identifying the root cause of discomfort, and guiding them through medication, preventive care, and necessary diagnostic testing in a calm and supportive manner. Dr. Sana Malik believes that high-quality ENT care should improve not just physical symptoms but also confidence, comfort, and quality of life, especially for children, working adults, and elderly patients who often experience repeated ENT concerns.",
+    "available_work_hours": 5,
+    "state": "Uttar Pradesh",
+    "city": "Kanpur",
+    "doctor_image": "doctor/sana.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 7,
+  "fields": {
+    "department_name": 10,
+    "doctor_full_name": "Dr. Rohit Verma",
+    "gender": "Male",
+    "age": 45,
+    "education_status": "MBBS, MD Cardiology",
+    "work_experience": 18,
+    "email": "rohit.verma@novena.com",
+    "mobile_number": "9876500013",
+    "doctor_description": "Dr. Rohit Verma is a senior cardiology specialist with 18 years of experience in the diagnosis, treatment, and long-term management of heart and circulation-related disorders. His clinical expertise includes chest pain evaluation, hypertension management, heart rhythm disturbances, cardiac weakness, lifestyle-related heart risk assessment, and preventive cardiology care for patients with existing or potential cardiovascular disease. He has extensive experience in interpreting cardiac investigations, guiding patients through diagnostic testing, and planning appropriate treatment pathways based on the severity and progression of their condition. Dr. Verma is known for taking a balanced and evidence-based approach in which medication, monitoring, diet awareness, and lifestyle correction are all considered part of a complete cardiac treatment plan. He works closely with patients who require regular follow-up, helping them understand their condition in a practical way so they can actively participate in their own recovery and long-term heart health. His goal is not only to treat active heart problems but also to reduce future complications, improve circulation, and support safer, healthier living through structured medical care and patient education.",
+    "available_work_hours": 6,
+    "state": "Delhi",
+    "city": "New Delhi",
+    "doctor_image": "doctor/Dr-Verma-400x414.webp"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 8,
+  "fields": {
+    "department_name": 10,
+    "doctor_full_name": "Dr. Nisha Gupta",
+    "gender": "Female",
+    "age": 40,
+    "education_status": "MBBS, DM Cardiology",
+    "work_experience": 13,
+    "email": "nisha.gupta@novena.com",
+    "mobile_number": "9876500014",
+    "doctor_description": "Dr. Nisha Gupta is a well-regarded cardiologist with more than 13 years of experience in handling a broad spectrum of cardiac and vascular health issues. She provides expert consultation for patients dealing with blood pressure fluctuations, palpitations, shortness of breath, fatigue linked to heart function, high cholesterol risk, and other symptoms suggestive of cardiovascular disease. Her approach to cardiology combines precise clinical evaluation with compassionate patient interaction, allowing her to build confidence among patients who may be anxious about serious heart-related symptoms. She places strong emphasis on early diagnosis, timely intervention, and continuous monitoring so that even chronic heart conditions can be managed effectively and safely over time. Dr. Gupta also guides patients recovering from cardiac procedures or facing long-term medication plans, ensuring they understand every step of their care and the importance of adherence to treatment. Through her work, she aims to deliver cardiology care that is clear, preventive, responsive, and focused on improving both immediate stability and long-term cardiovascular wellness.",
+    "available_work_hours": 5,
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "doctor_image": "doctor/Work_KSuvmU3.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 9,
+  "fields": {
+    "department_name": 9,
+    "doctor_full_name": "Dr. Imran Siddiqui",
+    "gender": "Male",
+    "age": 39,
+    "education_status": "MBBS, MD Anesthesiology",
+    "work_experience": 12,
+    "email": "imran.siddiqui@novena.com",
+    "mobile_number": "9876500015",
+    "doctor_description": "Dr. Imran Siddiqui is an experienced anesthesiologist with 12 years of expertise in delivering safe and carefully monitored anaesthesia support for a wide range of surgical and medical procedures. His professional role involves evaluating patients before surgery, selecting the most suitable anaesthesia method, maintaining stability during procedures, and ensuring safe recovery in the post-operative period. He has worked extensively with general anaesthesia, spinal and regional blocks, IV sedation, and pain control techniques designed to maximize comfort while minimizing procedural risk. Dr. Siddiqui is known for his calm judgment, detailed pre-operative assessment, and close observation of patient vitals throughout surgery, which helps support safe coordination between the anaesthesia and surgical teams. He pays particular attention to each patient’s medical history, age, allergy status, and overall physical condition before planning anaesthesia care. His aim is to provide a smooth operative experience in which pain is well controlled, complications are reduced, and patients feel secure and properly cared for at every stage of treatment.",
+    "available_work_hours": 6,
+    "state": "Uttar Pradesh",
+    "city": "Prayagraj",
+    "doctor_image": "doctor/download_vM5KseR.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 10,
+  "fields": {
+    "department_name": 9,
+    "doctor_full_name": "Dr. Priya Sharma",
+    "gender": "Female",
+    "age": 36,
+    "education_status": "MBBS, DNB Anesthesiology",
+    "work_experience": 10,
+    "email": "priya.sharma@novena.com",
+    "mobile_number": "9876500016",
+    "doctor_description": "Dr. Priya Sharma is a skilled anaesthesia specialist with over 10 years of clinical experience in perioperative care, patient monitoring, sedation planning, and pain management for surgical and procedural settings. She is highly trained in assessing patient fitness before surgery and deciding on the safest anaesthetic technique according to the type of operation, medical history, and expected recovery needs. Her clinical work includes administration of general anaesthesia, controlled sedation, spinal anaesthesia, and supportive monitoring for both routine and complex medical procedures. She is valued for her careful attention to detail, especially in patients who require extra monitoring due to age, coexisting illness, or procedure-related risk. Dr. Sharma believes that anaesthesia care is not limited to unconsciousness during surgery, but also includes comfort, reassurance, safety, and recovery support before, during, and after the procedure. Through disciplined monitoring and a patient-centered approach, she helps maintain a safe surgical environment and contributes significantly to better treatment outcomes and smoother recovery experiences.",
+    "available_work_hours": 6,
+    "state": "Rajasthan",
+    "city": "Jaipur",
+    "doctor_image": "doctor/download_1_ZF6QzWz.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 11,
+  "fields": {
+    "department_name": 8,
+    "doctor_full_name": "Dr. Faisal Ahmed",
+    "gender": "Male",
+    "age": 44,
+    "education_status": "MBBS, MD Critical Care",
+    "work_experience": 16,
+    "email": "faisal.ahmed@novena.com",
+    "mobile_number": "9876500017",
+    "doctor_description": "Dr. Faisal Ahmed is a senior critical care physician with 16 years of experience in managing severely ill and medically unstable patients in the intensive care setting. He specializes in treating patients who require advanced life support, continuous monitoring, emergency stabilization, oxygen therapy, ventilator management, and rapid intervention for serious conditions affecting multiple organ systems. His role in the ICU involves close supervision of patient status, interpreting changes in clinical condition, coordinating with nursing and respiratory care teams, and adjusting treatment plans quickly when a patient’s condition becomes more critical. Dr. Ahmed is respected for his ability to work efficiently under pressure while maintaining a structured and patient-focused treatment approach. He is also committed to clear communication with family members, helping them understand the seriousness of ICU care and the goals of treatment during difficult medical situations. His professional priority is to deliver intensive care that is timely, technically strong, and compassionate, with the aim of improving survival, stability, and recovery in patients facing serious health threats.",
+    "available_work_hours": 6,
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "doctor_image": "doctor/download_2_sy1REzS.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 12,
+  "fields": {
+    "department_name": 8,
+    "doctor_full_name": "Dr. Riya Singh",
+    "gender": "Female",
+    "age": 37,
+    "education_status": "MBBS, DNB Critical Care",
+    "work_experience": 9,
+    "email": "riya.singh@novena.com",
+    "mobile_number": "9876500018",
+    "doctor_description": "Dr. Riya Singh is a dedicated ICU specialist with 9 years of experience in caring for patients who need round-the-clock observation and advanced medical support. She manages a wide variety of critical cases involving breathing difficulty, severe infection, post-operative instability, organ dysfunction, and sudden deterioration in health that requires immediate intensive care attention. Her practice includes close vital monitoring, emergency response, oxygen and ventilator support, medication adjustment, and careful coordination with the broader clinical team to ensure continuous and organized treatment. She is known for her calm personality, disciplined monitoring style, and ability to act quickly in situations where even small changes in patient condition are clinically important. Dr. Singh also values communication and empathy, understanding that ICU care affects not only the patient but also the emotional well-being of family members waiting for updates. She aims to provide ICU treatment that is medically precise, consistently monitored, and centered on patient dignity, safety, and the best possible chance of recovery.",
+    "available_work_hours": 6,
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "doctor_image": "doctor/download_3_BPNh7lP.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 13,
+  "fields": {
+    "department_name": 7,
+    "doctor_full_name": "Dr. Arjun Mehta",
+    "gender": "Male",
+    "age": 43,
+    "education_status": "MBBS, MS General Surgery",
+    "work_experience": 17,
+    "email": "arjun.mehta@novena.com",
+    "mobile_number": "9876500019",
+    "doctor_description": "Dr. Arjun Mehta is a highly experienced surgeon with 17 years of practice in performing safe and well-planned surgical procedures in the operating theatre environment. His work includes pre-operative assessment, surgical preparation, sterile technique management, intraoperative decision-making, and post-operative follow-up for patients undergoing minor as well as major procedures. He has handled a wide range of general surgical conditions and is known for his steady surgical technique, clinical discipline, and clear coordination with OT staff, anaesthesiologists, and recovery teams. Dr. Mehta gives strong importance to patient safety, infection prevention, accurate surgical planning, and proper explanation of operative risks and recovery expectations before treatment begins. He believes that successful surgery depends not only on technical performance in the OT but also on preparation, communication, and responsible aftercare once the procedure is completed. His goal is to ensure that every patient undergoing surgery experiences an organized, safe, and carefully supervised process from admission to recovery.",
+    "available_work_hours": 6,
+    "state": "Gujarat",
+    "city": "Ahmedabad",
+    "doctor_image": "doctor/download_8_QMKHvaf.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 14,
+  "fields": {
+    "department_name": 7,
+    "doctor_full_name": "Dr. Neha Joshi",
+    "gender": "Female",
+    "age": 41,
+    "education_status": "MBBS, MS Surgery",
+    "work_experience": 14,
+    "email": "neha.joshi@novena.com",
+    "mobile_number": "9876500020",
+    "doctor_description": "Dr. Neha Joshi is an accomplished surgeon with 14 years of surgical experience and a strong professional focus on precision, aseptic practice, and patient-centered operative care. She works extensively in the operating theatre, where she performs planned surgical procedures with careful attention to diagnosis, preparation, intraoperative safety, and post-surgical healing support. Her clinical style is methodical and detail-oriented, allowing her to handle routine and moderately complex surgical cases with confidence and consistency. She is especially appreciated for her ability to guide patients through the surgical process in a reassuring manner, helping them understand the procedure, expected benefits, possible risks, and recovery responsibilities. Dr. Joshi also coordinates closely with the anaesthesia and nursing teams to maintain smooth workflow and safe surgical conditions throughout every operation. She views surgery as a complete treatment journey rather than a single event, and she focuses on delivering outcomes that support healing, comfort, and long-term patient well-being.",
+    "available_work_hours": 6,
+    "state": "Madhya Pradesh",
+    "city": "Bhopal",
+    "doctor_image": "doctor/ensaio_enfermagem_IA_s0a9Kon.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 15,
+  "fields": {
+    "department_name": 6,
+    "doctor_full_name": "Dr. Sameer Qureshi",
+    "gender": "Male",
+    "age": 35,
+    "education_status": "MBBS, MD Emergency Medicine",
+    "work_experience": 8,
+    "email": "sameer.qureshi@novena.com",
+    "mobile_number": "9876500021",
+    "doctor_description": "Dr. Sameer Qureshi is an emergency medicine specialist with 8 years of experience in handling urgent, unstable, and time-sensitive medical conditions in the casualty department. He is trained to respond quickly to trauma, accidental injury, sudden pain, breathing distress, fever emergencies, bleeding, weakness, dehydration, and other acute presentations that require immediate medical attention. His role involves rapid assessment, early stabilization, pain relief, ordering urgent investigations, and deciding whether a patient can be treated directly or should be referred to a specialist or admitted for further care. He is recognized for his quick decision-making, ability to stay composed in high-pressure situations, and commitment to treating emergency patients efficiently without compromising care quality. Dr. Qureshi understands that casualty medicine often involves uncertainty, fear, and urgency, so he makes it a priority to communicate clearly with patients and attendants during stressful moments. His aim is to provide dependable emergency care that is fast, organized, clinically sound, and focused on reducing risk at the earliest possible stage.",
+    "available_work_hours": 6,
+    "state": "Uttar Pradesh",
+    "city": "Noida",
+    "doctor_image": "doctor/download_5_mg9tF9m.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 16,
+  "fields": {
+    "department_name": 6,
+    "doctor_full_name": "Dr. Pooja Bansal",
+    "gender": "Female",
+    "age": 34,
+    "education_status": "MBBS, DNB Emergency Medicine",
+    "work_experience": 7,
+    "email": "pooja.bansal@novena.com",
+    "mobile_number": "9876500022",
+    "doctor_description": "Dr. Pooja Bansal is an experienced emergency care doctor with 7 years of service in casualty and acute care settings, where rapid response and accurate clinical judgment are essential. She frequently manages patients presenting with injury, sudden illness, fainting episodes, severe pain, trauma, accident-related complications, and urgent medical symptoms requiring immediate support. Her work involves triage, stabilization, first-line treatment, coordination with diagnostic services, and referral planning for patients who need advanced or department-specific intervention. She is known for maintaining a calm, structured approach even during busy emergency hours, which helps ensure that patients are assessed and treated in a timely and efficient manner. Dr. Bansal strongly believes that the first few minutes of emergency treatment can significantly affect patient outcomes, and she therefore emphasizes speed, clarity, and organized response in all casualty situations. Through her work, she strives to deliver emergency care that is practical, attentive, and reassuring for both patients and their families during moments of sudden medical need.",
+    "available_work_hours": 6,
+    "state": "Haryana",
+    "city": "Gurugram",
+    "doctor_image": "doctor/pooja.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 17,
+  "fields": {
+    "department_name": 17,
+    "doctor_full_name": "Dr. Iqbal Hussain",
+    "gender": "Male",
+    "age": 40,
+    "education_status": "MBBS, MD Paediatrics",
+    "work_experience": 14,
+    "email": "iqbal.hussain@novena.com",
+    "mobile_number": "9876500023",
+    "doctor_description": "Dr. Iqbal Hussain is a compassionate paediatric specialist with 14 years of experience in caring for infants, children, and adolescents across a wide variety of health conditions. His clinical work includes management of fever, infections, nutritional deficiency, allergy, childhood respiratory illness, digestive complaints, growth concerns, and routine developmental health monitoring. He is known for his gentle communication style and for creating a comfortable environment in which children feel less afraid and parents feel well informed. Dr. Hussain believes that pediatric care should address not only the immediate illness but also the child’s overall development, immunity, comfort, and long-term health progress. He regularly guides parents on preventive care, nutrition, hygiene, medication use, and early warning signs that should never be ignored in growing children. His goal is to offer pediatric treatment that is safe, family-friendly, clinically thorough, and supportive of healthy childhood development at every stage.",
+    "available_work_hours": 6,
+    "state": "Bihar",
+    "city": "Patna",
+    "doctor_image": "doctor/my_pin_for_the_own_world__is_patience_and_be_hardworking_LusuC8l.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 18,
+  "fields": {
+    "department_name": 17,
+    "doctor_full_name": "Dr. Ananya Roy",
+    "gender": "Female",
+    "age": 37,
+    "education_status": "MBBS, DCH",
+    "work_experience": 10,
+    "email": "ananya.roy@novena.com",
+    "mobile_number": "9876500024",
+    "doctor_description": "Dr. Ananya Roy is an experienced child health specialist with 10 years of practice in diagnosing and managing common as well as recurring health concerns in children. She provides consultation for infections, weakness, digestive upset, low appetite, growth delay, seasonal illness, and immunity-related problems, while also supporting preventive care through routine checkups and vaccination guidance. Her approach is warm, attentive, and practical, helping parents understand both the illness and the steps needed for safe recovery and healthy development. She is particularly appreciated for balancing medical treatment with preventive advice, because she believes child wellness depends on ongoing care rather than only emergency visits during illness. Dr. Roy pays close attention to each child’s age, developmental stage, medical history, and family concerns before planning treatment. She aims to provide pediatric care that is trustworthy, gentle, and focused on building strong foundations for a healthier future in children of all age groups.",
+    "available_work_hours": 6,
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "doctor_image": "doctor/download_10.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 19,
+  "fields": {
+    "department_name": 16,
+    "doctor_full_name": "Dr. Farhan Ali",
+    "gender": "Male",
+    "age": 46,
+    "education_status": "MBBS, MD Haematology",
+    "work_experience": 19,
+    "email": "farhan.ali@novena.com",
+    "mobile_number": "9876500025",
+    "doctor_description": "Dr. Farhan Ali is a senior haematology specialist with 19 years of experience in the investigation, diagnosis, and management of blood-related disorders. His expertise includes evaluation of anemia, platelet abnormalities, bleeding disorders, blood cell imbalance, weakness linked to blood deficiency, and laboratory-supported assessment of more complex hematological conditions. He works closely with hospital laboratory services to ensure that test interpretation is accurate, timely, and clinically useful for forming an effective treatment plan. Dr. Ali is known for his detail-oriented medical approach, especially in cases where symptoms appear general but the underlying blood disorder requires careful and systematic investigation. He believes that blood health has a major impact on overall body function, energy levels, immunity, and recovery capacity, which is why he focuses strongly on both diagnosis and long-term monitoring. Through his clinical experience, he aims to provide blood disorder care that is precise, well-coordinated, and responsive to the needs of patients requiring regular follow-up and evidence-based treatment support.",
+    "available_work_hours": 6,
+    "state": "Karnataka",
+    "city": "Bengaluru",
+    "doctor_image": "doctor/Old_male_doctor_radiologist_working_in_the_clinic_stock_photos_YDhVjaM.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 20,
+  "fields": {
+    "department_name": 16,
+    "doctor_full_name": "Dr. Meera Nair",
+    "gender": "Female",
+    "age": 39,
+    "education_status": "MBBS, DM Haematology",
+    "work_experience": 12,
+    "email": "meera.nair@novena.com",
+    "mobile_number": "9876500026",
+    "doctor_description": "Dr. Meera Nair is a dedicated haematology consultant with 12 years of experience in handling a wide range of blood and bone marrow-related concerns using a careful, investigation-based treatment approach. She manages patients with anemia, clotting problems, unexplained fatigue, low blood counts, bleeding tendencies, and other conditions where blood analysis plays a central role in diagnosis and care planning. Her work relies heavily on detailed interpretation of laboratory findings, symptom patterns, and follow-up trends, making her especially effective in cases that require continued observation and medical adjustment over time. Patients value her for her clarity in explaining blood test abnormalities and for her supportive approach in conditions that can often feel confusing or concerning to families. Dr. Nair believes that strong haematology care requires patience, accuracy, and close coordination between physician, laboratory, and patient. Her objective is to deliver dependable, scientifically guided blood disorder treatment that improves stability, restores health confidence, and supports long-term medical management where necessary.",
+    "available_work_hours": 6,
+    "state": "Kerala",
+    "city": "Kochi",
+    "doctor_image": "doctor/6_Instagram.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 21,
+  "fields": {
+    "department_name": 15,
+    "doctor_full_name": "Dr. Shalini Kapoor",
+    "gender": "Female",
+    "age": 41,
+    "education_status": "MBBS, MS Gynaecology",
+    "work_experience": 15,
+    "email": "shalini.kapoor@novena.com",
+    "mobile_number": "9876500027",
+    "doctor_description": "Dr. Shalini Kapoor is a highly experienced gynaecologist with 15 years of practice in women’s reproductive health, preventive care, and treatment of gynecological disorders across different age groups. She regularly manages cases involving menstrual irregularity, infertility-related evaluation, pelvic discomfort, urinary tract concerns, hormonal imbalance, infection, and other reproductive system issues that affect women’s physical comfort and daily well-being. She is known for her respectful consultation style and for creating a supportive environment in which patients can openly discuss sensitive health concerns without hesitation. Dr. Kapoor combines clinical knowledge with careful counseling so that patients not only receive treatment but also understand their condition, available options, and the importance of timely care. She places strong focus on early diagnosis, preventive monitoring, and long-term reproductive wellness rather than only short-term symptom control. Her goal is to provide gynecology care that is professional, reassuring, and centered on the health, dignity, and confidence of every woman under her care.",
+    "available_work_hours": 6,
+    "state": "Punjab",
+    "city": "Ludhiana",
+    "doctor_image": "doctor/download_7_17cVK0H.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 22,
+  "fields": {
+    "department_name": 15,
+    "doctor_full_name": "Dr. Kavita Rana",
+    "gender": "Female",
+    "age": 38,
+    "education_status": "MBBS, DGO",
+    "work_experience": 11,
+    "email": "kavita.rana@novena.com",
+    "mobile_number": "9876500028",
+    "doctor_description": "Dr. Kavita Rana is an experienced women’s health specialist with 11 years of clinical work in diagnosing and treating gynecological and urinary tract-related conditions. She provides care for infertility concerns, incontinence, menstrual discomfort, hormonal variation, pelvic pain, and reproductive health problems that require both medical attention and compassionate communication. Her patients appreciate her for her calm nature, detail-focused consultation, and the trust she builds while discussing personal health issues that many women may find difficult to express openly. She believes in offering structured care that includes evaluation, medical treatment, preventive guidance, and routine follow-up where required. Dr. Rana also encourages women to take reproductive health seriously through regular checkups and early consultation, because many gynecological problems respond better when identified in time. Through her practice, she aims to support women with thoughtful, respectful, and clinically sound care that improves comfort, confidence, and long-term health.",
+    "available_work_hours": 6,
+    "state": "Uttarakhand",
+    "city": "Dehradun",
+    "doctor_image": "doctor/download_9_EJa96YG.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 23,
+  "fields": {
+    "department_name": 14,
+    "doctor_full_name": "Dr. Vinay Tandon",
+    "gender": "Male",
+    "age": 47,
+    "education_status": "MBBS, MS General Surgery",
+    "work_experience": 20,
+    "email": "vinay.tandon@novena.com",
+    "mobile_number": "9876500029",
+    "doctor_description": "Dr. Vinay Tandon is a senior general surgeon with 20 years of extensive experience in handling a broad range of surgical conditions requiring planned operative treatment. His surgical work includes thyroid procedures, gall bladder operations, abdominal surgeries, colon-related interventions, breast-related procedures, and other common general surgery cases requiring safe and timely management. He is well known for his disciplined pre-operative planning, precision during surgery, and careful follow-up after procedures to reduce complications and support smooth healing. His professional style combines technical surgical expertise with clear patient counseling so individuals understand the need for surgery, the expected process, and the precautions required during recovery. Dr. Tandon strongly believes that successful surgery depends on much more than the operation itself, including careful diagnosis, proper preparation, sterile technique, and responsible monitoring after discharge. His goal is to deliver surgery that is safe, efficient, evidence-based, and structured around the best possible clinical and recovery outcome for each patient.",
+    "available_work_hours": 6,
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "doctor_image": "doctor/Marcos_Cunha_pf0bpWy.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 24,
+  "fields": {
+    "department_name": 14,
+    "doctor_full_name": "Dr. Monika Sethi",
+    "gender": "Female",
+    "age": 42,
+    "education_status": "MBBS, MS Surgery",
+    "work_experience": 6,
+    "email": "monika.sethi@novena.com",
+    "mobile_number": "9876500030",
+    "doctor_description": "Dr. Monika Sethi is a highly capable general surgeon with 16 years of clinical experience in performing routine and advanced surgical procedures with a focus on safety, recovery, and patient confidence. She evaluates surgical patients in detail, identifies the best operative approach for the condition involved, and ensures that treatment decisions are made with both medical necessity and recovery quality in mind. Her areas of work include common abdominal surgeries, soft tissue procedures, breast surgery support, and other general operations that require coordinated perioperative care. She is respected for her clean surgical technique, structured case handling, and supportive communication style before and after surgery. Dr. Sethi believes that many patient fears around surgery can be reduced through proper explanation, careful monitoring, and realistic recovery planning, and she makes these elements an important part of her work. Her aim is to provide dependable surgical care that balances technical excellence with compassion, clarity, and strong post-operative support.",
+    "available_work_hours": 6,
+    "state": "Chandigarh",
+    "city": "Chandigarh",
+    "doctor_image": "doctor/Dr__Emily_Carter___New_York_NY_GeTtSuH.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 25,
+  "fields": {
+    "department_name": 13,
+    "doctor_full_name": "Dr. Harish Mehra",
+    "gender": "Male",
+    "age": 44,
+    "education_status": "MBBS, DM Gastroenterology",
+    "work_experience": 17,
+    "email": "harish.mehra@novena.com",
+    "mobile_number": "9876500031",
+    "doctor_description": "Dr. Harish Mehra is an experienced gastroenterology specialist with 17 years of practice in diagnosing and managing disorders of the digestive system, including the stomach, intestines, liver, and related gastrointestinal structures. He regularly treats patients suffering from acidity, gastritis, abdominal discomfort, peptic ulcer symptoms, indigestion, bowel irregularity, gallstone-related issues, and chronic digestive complaints that affect nutrition and quality of life. His clinical approach is based on detailed symptom assessment, appropriate investigation, and a combination of medical treatment, dietary guidance, and long-term digestive care planning. He is known for helping patients understand the link between digestive health, lifestyle habits, stress, and ongoing gastrointestinal discomfort, making his consultations both practical and informative. Dr. Mehra is committed to identifying not just visible symptoms but also recurring causes that may be affecting the digestive system over time. His objective is to provide gastroenterology care that is thorough, patient-friendly, and effective in restoring digestive comfort, nutritional balance, and confidence in day-to-day health.",
+    "available_work_hours": 6,
+    "state": "Maharashtra",
+    "city": "Pune",
+    "doctor_image": "doctor/Mourad_Karami_vW9RIt7.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 26,
+  "fields": {
+    "department_name": 13,
+    "doctor_full_name": "Dr. Pankhuri Sharma",
+    "gender": "Female",
+    "age": 36,
+    "education_status": "MBBS, DNB Gastroenterology",
+    "work_experience": 9,
+    "email": "pankhuri.sharma@novena.com",
+    "mobile_number": "9876500032",
+    "doctor_description": "Dr. Pankhuri Sharma is a dedicated gastroenterology consultant with 9 years of experience in evaluating and treating a wide range of gastrointestinal and digestive health conditions. She commonly manages patients with stomach pain, vomiting tendency, indigestion, bowel discomfort, constipation, acid-related symptoms, liver-related concerns, and chronic digestive problems that require careful monitoring and structured treatment. Her consultation style is attentive and detail-driven, allowing her to build a complete understanding of patient symptoms, food tolerance, medical history, and lifestyle factors before finalizing a treatment plan. She believes digestive disorders should be approached with both medical precision and practical daily guidance, since eating habits, routine, stress, and follow-up care all play a major role in recovery. Dr. Sharma also supports procedural evaluation and ongoing digestive care for patients who need further investigation. Her aim is to offer gastroenterology care that is dependable, well-explained, and designed to improve both symptom relief and long-term digestive stability.",
+    "available_work_hours": 6,
+    "state": "Rajasthan",
+    "city": "Jodhpur",
+    "doctor_image": "doctor/Dr__Pandit_Sindhu_m0rPKCl.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 27,
+  "fields": {
+    "department_name": 12,
+    "doctor_full_name": "Dr. Rajesh Bhatia",
+    "gender": "Male",
+    "age": 48,
+    "education_status": "MBBS, MD Geriatric Medicine",
+    "work_experience": 21,
+    "email": "rajesh.bhatia@novena.com",
+    "mobile_number": "9876500033",
+    "doctor_description": "Dr. Rajesh Bhatia is a senior geriatric medicine specialist with 21 years of experience in caring for elderly patients with age-related medical, physical, and functional concerns. He manages a broad range of issues including weakness, chronic illness, mobility limitation, memory-related concerns, reduced energy, age-associated complications, and the overall health challenges that often arise in later life. His clinical approach is centered on preserving independence, improving comfort, and maintaining both physical and emotional well-being in older adults through regular monitoring and personalized treatment planning. He understands that senior patients often require more than disease-specific treatment, and therefore gives attention to nutrition, medication review, routine function, family support, and quality-of-life considerations as part of complete care. Dr. Bhatia is respected for his patience, maturity, and ability to guide both patients and family members through long-term treatment decisions in a practical and reassuring manner. His goal is to provide geriatric care that is compassionate, stable, and thoughtfully designed to support healthier and more dignified aging.",
+    "available_work_hours": 9,
+    "state": "Himachal Pradesh",
+    "city": "Shimla",
+    "doctor_image": "doctor/Smiling_south_indian_male_doctor_portrait_with_stethoscope_S7vaoab.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 28,
+  "fields": {
+    "department_name": 12,
+    "doctor_full_name": "Dr. Alka Menon",
+    "gender": "Female",
+    "age": 45,
+    "education_status": "MBBS, Diploma in Geriatric Care",
+    "work_experience": 18,
+    "email": "alka.menon@novena.com",
+    "mobile_number": "9876500034",
+    "doctor_description": "Dr. Alka Menon is an experienced geriatric care physician with 18 years of practice in supporting the health and medical needs of older adults. She works with elderly patients facing chronic disease, reduced strength, medication burden, mobility issues, frailty, and daily functioning concerns that require careful and continuous medical supervision. Her style of care is compassionate and patient-centered, with strong focus on understanding how age-related illness affects comfort, confidence, mental well-being, and family life. She believes that geriatric treatment should aim not only to manage disease but also to protect dignity, maintain routine independence, and reduce unnecessary discomfort for senior patients. Dr. Menon often guides families in planning long-term elderly care, helping them understand treatment priorities, medication safety, and realistic health goals for aging individuals. Through her work, she aims to provide reliable, respectful, and well-rounded geriatric care that improves quality of life and supports healthier aging with appropriate medical attention.",
+    "available_work_hours": 6,
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "doctor_image": "doctor/Female_Doctor_AI_RJQqGBE.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 29,
+  "fields": {
+    "department_name": 6,
+    "doctor_full_name": "Dr. Divyanshi gupta",
+    "gender": "Female",
+    "age": 20,
+    "education_status": "MBBS, DNB Critical Care",
+    "work_experience": 9,
+    "email": "divyanshinovena@gmail.com",
+    "mobile_number": "6303272292",
+    "doctor_description": "Dr. Divyanshi gupta is an experienced child health specialist with 10 years of practice in diagnosing and managing common as well as recurring health concerns in children. She provides consultation for infections, weakness, digestive upset, low appetite, growth delay, seasonal illness, and immunity-related problems, while also supporting preventive care through routine checkups and vaccination guidance. Her approach is warm, attentive, and practical, helping parents understand both the illness and the steps needed for safe recovery and healthy development. She is particularly appreciated for balancing medical treatment with preventive advice, because she believes child wellness depends on ongoing care rather than only emergency visits during illness. Dr. Roy pays close attention to each child’s age, developmental stage, medical history, and family concerns before planning treatment. She aims to provide pediatric care that is trustworthy, gentle, and focused on building strong foundations for a healthier future in children of all age groups.",
+    "available_work_hours": 6,
+    "state": "Uttar Pradesh",
+    "city": "Kanpur",
+    "doctor_image": "doctor/IMG-20251215-WA0002.jpg"
+  }
+},
+{
+  "model": "health.doctordetail",
+  "pk": 30,
+  "fields": {
+    "department_name": 7,
+    "doctor_full_name": "Dr. Mansi gautam",
+    "gender": "Female",
+    "age": 20,
+    "education_status": "MBBS, DNB Critical Care",
+    "work_experience": 9,
+    "email": "mansigautamnovena@gmail.com",
+    "mobile_number": "895623564",
+    "doctor_description": "Dr. Mansi gautam is a highly capable general surgeon with 16 years of clinical experience in performing routine and advanced surgical procedures with a focus on safety, recovery, and patient confidence. She evaluates surgical patients in detail, identifies the best operative approach for the condition involved, and ensures that treatment decisions are made with both medical necessity and recovery quality in mind. Her areas of work include common abdominal surgeries, soft tissue procedures, breast surgery support, and other general operations that require coordinated perioperative care. She is respected for her clean surgical technique, structured case handling, and supportive communication style before and after surgery. Dr. Sethi believes that many patient fears around surgery can be reduced through proper explanation, careful monitoring, and realistic recovery planning, and she makes these elements an important part of her work. Her aim is to provide dependable surgical care that balances technical excellence with compassion, clarity, and strong post-operative support.",
+    "available_work_hours": 6,
+    "state": "Uttar Pradesh",
+    "city": "Kanpur",
+    "doctor_image": "doctor/IMG20250213183032.jpg"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 8,
+  "fields": {
+    "doctor_name": "Dr. Sameer Qureshi",
+    "patient_name": "Nitin Pratap Singh",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-18",
+    "appointment_time": "10:32:00",
+    "prescription": "",
+    "message": "hiii"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 9,
+  "fields": {
+    "doctor_name": "Dr. Adeel Khan",
+    "patient_name": "Divyanshi Pal",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-15",
+    "appointment_time": "11:33:00",
+    "prescription": "",
+    "message": "mm"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 10,
+  "fields": {
+    "doctor_name": "Dr. Sameer Qureshi",
+    "patient_name": "Nitin Pratap Singh",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-17",
+    "appointment_time": "11:11:00",
+    "prescription": "",
+    "message": "ff"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 11,
+  "fields": {
+    "doctor_name": "Dr. Faisal Ahmed",
+    "patient_name": "Nitin",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-16",
+    "appointment_time": "11:49:00",
+    "prescription": "",
+    "message": "hh"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 12,
+  "fields": {
+    "doctor_name": "Dr. Arjun Mehta",
+    "patient_name": "divy",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-16",
+    "appointment_time": "09:53:00",
+    "prescription": "",
+    "message": "ff"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 13,
+  "fields": {
+    "doctor_name": "Dr. Neha Joshi",
+    "patient_name": "DIVYANSHI",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-17",
+    "appointment_time": "12:52:00",
+    "prescription": "",
+    "message": "ll"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 14,
+  "fields": {
+    "doctor_name": "Dr. Neha Joshi",
+    "patient_name": "DIVYANSHI",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-17",
+    "appointment_time": "12:52:00",
+    "prescription": "",
+    "message": "ll"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 15,
+  "fields": {
+    "doctor_name": "Dr. Neha Joshi",
+    "patient_name": "DIVYANSHI",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-17",
+    "appointment_time": "12:52:00",
+    "prescription": "",
+    "message": "ll"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 16,
+  "fields": {
+    "doctor_name": "Dr. Neha Joshi",
+    "patient_name": "DIVYANSHI",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-17",
+    "appointment_time": "12:52:00",
+    "prescription": "",
+    "message": "ll"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 17,
+  "fields": {
+    "doctor_name": "Dr. Arjun Mehta",
+    "patient_name": "Divyanshi Pal",
+    "patient_email": "vdnosfmdypiofddomi@nbmbb.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-23",
+    "appointment_time": "11:11:00",
+    "prescription": "",
+    "message": ""
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 18,
+  "fields": {
+    "doctor_name": "Dr. Arjun Mehta",
+    "patient_name": "Divyanshi Pal",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-23",
+    "appointment_time": "11:11:00",
+    "prescription": "",
+    "message": ""
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 19,
+  "fields": {
+    "doctor_name": "Dr. Faisal Ahmed",
+    "patient_name": "Nitin Pratap Singh",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-16",
+    "appointment_time": "10:12:00",
+    "prescription": "",
+    "message": ""
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 20,
+  "fields": {
+    "doctor_name": "Dr. Neha Joshi",
+    "patient_name": "Nitin Pratap Singh",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-16",
+    "appointment_time": "10:12:00",
+    "prescription": "",
+    "message": ""
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 21,
+  "fields": {
+    "doctor_name": "Dr. Neha Joshi",
+    "patient_name": "Nitin Pratap Singh",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-24",
+    "appointment_time": "11:13:00",
+    "prescription": "",
+    "message": ""
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 22,
+  "fields": {
+    "doctor_name": "Dr. Sameer Qureshi",
+    "patient_name": "Nitin Pratap Singh",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-16",
+    "appointment_time": "10:14:00",
+    "prescription": "",
+    "message": ""
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 23,
+  "fields": {
+    "doctor_name": "Dr. Arjun Mehta",
+    "patient_name": "Nitin Pratap Singh",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-16",
+    "appointment_time": "10:21:00",
+    "prescription": "",
+    "message": "ss"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 24,
+  "fields": {
+    "doctor_name": "Dr. Imran Siddiqui",
+    "patient_name": "Divyanshi Pal",
+    "patient_email": "pratapsinghnitin3@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-30",
+    "appointment_time": "11:27:00",
+    "prescription": "",
+    "message": "m"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 25,
+  "fields": {
+    "doctor_name": "Dr. Farhan Ali",
+    "patient_name": "Divyanshi Pal",
+    "patient_email": "Divyanshipal.lucky@gmail.com",
+    "patient_mobile_number": "",
+    "appointment_date": "2026-04-17",
+    "appointment_time": "12:31:00",
+    "prescription": "",
+    "message": "cbbvbv"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 26,
+  "fields": {
+    "doctor_name": "Dr. Sameer Qureshi",
+    "patient_name": "prince katiyar",
+    "patient_email": "princekatiyar1276@gmail.com",
+    "patient_mobile_number": "7388667552",
+    "appointment_date": "2026-04-16",
+    "appointment_time": "12:00:00",
+    "prescription": "",
+    "message": "hii sir i want an oppoinment"
+  }
+},
+{
+  "model": "health.appointmentdetails",
+  "pk": 27,
+  "fields": {
+    "doctor_name": "Dr. Nisha Gupta",
+    "patient_name": "prince katiyar",
+    "patient_email": "princekatiyar1276@gmail.com",
+    "patient_mobile_number": "7388667552",
+    "appointment_date": "2026-04-16",
+    "appointment_time": "13:35:00",
+    "prescription": "",
+    "message": "hi sir"
+  }
+},
+{
+  "model": "health.queries",
+  "pk": 17,
+  "fields": {
+    "name": "Nitin Pratap Singh",
+    "email": "pratapsinghnitin3@gmail.com",
+    "subject": "expensive",
+    "phone": "",
+    "message": "mm"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-04-09T07:33:53.526Z",
+    "user": [
+      "jagran"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "1",
+    "object_repr": "Child care",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-04-09T07:41:00.974Z",
+    "user": [
+      "jagran"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "2",
+    "object_repr": "Personal Care",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-04-09T07:41:10.699Z",
+    "user": [
+      "jagran"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "3",
+    "object_repr": "Cardiology",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-04-09T07:42:58.248Z",
+    "user": [
+      "jagran"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "1",
+    "object_repr": "Rajeev",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-04-09T07:48:24.385Z",
+    "user": [
+      "jagran"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "4",
+    "object_repr": "Neurology",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-04-09T07:51:55.674Z",
+    "user": [
+      "jagran"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "2",
+    "object_repr": "Rajeev",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-04-09T09:33:41.347Z",
+    "user": [
+      "jagran"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "3",
+    "object_repr": "Sonu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-04-10T09:51:29.299Z",
+    "user": [
+      "jagran"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "4",
+    "object_repr": "Rakesh",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-04-12T18:18:50.083Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "5",
+    "object_repr": "Appointment for Mumma's Girl Boutique with Dr. Rajeev on 2026-04-01 at 23:48:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-04-12T18:18:50.083Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "4",
+    "object_repr": "Appointment for Vibgyor studio with Dr. Rajeev on 2026-04-01 at 23:43:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-04-12T18:18:50.083Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "3",
+    "object_repr": "Appointment for Madhura's boutique with Dr. Sonu on 2026-04-02 at 23:21:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-04-12T18:18:50.083Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "2",
+    "object_repr": "Appointment for Mumma's Girl Boutique with Dr. 2 on 2026-04-03 at 23:16:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-04-12T18:18:50.083Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "1",
+    "object_repr": "Appointment for Vastra Siri with Dr. 1 on 2026-04-09 at 13:04:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-04-12T18:41:31.627Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "4",
+    "object_repr": "Neurology",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-04-12T18:41:31.627Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "3",
+    "object_repr": "Cardiology",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-04-12T18:41:31.627Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "2",
+    "object_repr": "Personal Care",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-04-12T18:41:31.627Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "1",
+    "object_repr": "Child care",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-04-12T18:49:36.107Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "5",
+    "object_repr": "Casualty Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-04-12T19:12:08.624Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "5",
+    "object_repr": "Casualty Department",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-04-12T19:14:59.183Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "6",
+    "object_repr": "Casualty Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-04-12T19:43:59.192Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "7",
+    "object_repr": "Operating Theatre (OT)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-04-12T19:44:47.464Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "8",
+    "object_repr": "Intensive Care Unit (ICU)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-04-12T19:45:24.347Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "9",
+    "object_repr": "Anesthesiology Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-04-12T19:46:05.349Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "10",
+    "object_repr": "Cardiology Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-04-12T19:46:42.930Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "11",
+    "object_repr": "ENT Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-04-12T19:47:30.487Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "12",
+    "object_repr": "Geriatric Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-04-12T19:48:13.861Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "13",
+    "object_repr": "Gastroenterology Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-04-12T19:48:53.209Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "14",
+    "object_repr": "General Surgery",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-04-12T19:49:29.787Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "15",
+    "object_repr": "Gynaecology Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-04-12T19:49:55.769Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "16",
+    "object_repr": "Haematology Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-04-12T19:50:28.728Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "department"
+    ],
+    "object_id": "17",
+    "object_repr": "Paediatrics Department",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-04-12T20:03:44.793Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "5",
+    "object_repr": "Dr. Adeel Khan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-04-13T05:59:56.362Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "6",
+    "object_repr": "Appointment for Nitin Pratap Singh with Dr. Dr. Adeel Khan on 2026-04-14 at 16:19:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-04-13T06:04:41.555Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "6",
+    "object_repr": "Dr. Sana Malik",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-04-13T06:07:55.371Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "7",
+    "object_repr": "Dr. Rohit Verma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-04-13T06:13:13.369Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "8",
+    "object_repr": "Dr. Nisha Gupta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-04-13T06:16:06.386Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "9",
+    "object_repr": "Dr. Imran Siddiqui",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-04-13T06:18:41.748Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "10",
+    "object_repr": "Dr. Priya Sharma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-04-13T06:21:26.520Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "11",
+    "object_repr": "Dr. Faisal Ahmed",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-04-13T06:26:06.506Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "12",
+    "object_repr": "Dr. Riya Singh",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-04-13T06:28:50.589Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "13",
+    "object_repr": "Dr. Arjun Mehta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-04-13T06:31:02.835Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "14",
+    "object_repr": "Dr. Neha Joshi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-04-13T06:33:32.120Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "15",
+    "object_repr": "Dr. Sameer Qureshi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-04-13T06:35:31.498Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "16",
+    "object_repr": "Dr. Pooja Bansal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "16",
+    "object_repr": "Nitin Pratap Singh - expensive",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "15",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "14",
+    "object_repr": "Test User - Hello",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "13",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "12",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "11",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "10",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "9",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "8",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "7",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "6",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "5",
+    "object_repr": "Nitin Pratap Singh - expensive",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "4",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "3",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "2",
+    "object_repr": "Nitin Pratap Singh - expensive",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-04-14T10:35:33.234Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "queries"
+    ],
+    "object_id": "1",
+    "object_repr": " - ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-04-14T13:32:02.897Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "15",
+    "object_repr": "Dr. Sameer Qureshi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-04-14T13:34:05.721Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "15",
+    "object_repr": "Dr. Sameer Qureshi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-04-14T14:55:17.968Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "16",
+    "object_repr": "Dr. Pooja Bansal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-04-14T15:25:01.563Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "16",
+    "object_repr": "Dr. Pooja Bansal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-04-14T16:00:38.765Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "17",
+    "object_repr": "Dr. Iqbal Hussain",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-04-14T16:02:03.778Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "7",
+    "object_repr": "Appointment for Nitin Pratap Singh with Dr. Dr. Neha Joshi on 2026-04-15 at 08:55:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-04-14T16:02:03.778Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "6",
+    "object_repr": "Appointment for Nitin Pratap Singh with Dr. Dr. Neha Joshi on 2026-04-15 at 08:55:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-04-14T16:02:03.778Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "5",
+    "object_repr": "Appointment for Nitin Pratap Singh with Dr. Dr. Arjun Mehta on 2026-04-15 at 08:51:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-04-14T16:02:03.778Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "4",
+    "object_repr": "Appointment for Divyanshi Pal with Dr. Dr. Pooja Bansal on 2026-04-15 at 09:00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-04-14T16:02:03.778Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "3",
+    "object_repr": "Appointment for Nitin Pratap Singh with Dr. Dr. Sameer Qureshi on 2026-04-15 at 14:03:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-04-14T16:02:03.778Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "2",
+    "object_repr": "Appointment for Nitin Pratap Singh with Dr. Dr. Sameer Qureshi on 2026-04-15 at 13:59:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-04-14T16:02:03.783Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "appointmentdetails"
+    ],
+    "object_id": "1",
+    "object_repr": "Appointment for Nitin with Dr. Dr. Sameer Qureshi on 2026-04-23 at 13:54:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-04-14T16:08:59.751Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "18",
+    "object_repr": "Dr. Ananya Roy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-04-14T16:12:55.887Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "19",
+    "object_repr": "Dr. Farhan Ali",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-04-14T16:19:12.260Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "20",
+    "object_repr": "Dr. Meera Nair",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-04-14T16:30:18.283Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "21",
+    "object_repr": "Dr. Shalini Kapoor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-04-14T16:33:25.920Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "22",
+    "object_repr": "Dr. Kavita Rana",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2026-04-14T16:36:24.500Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "23",
+    "object_repr": "Dr. Vinay Tandon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2026-04-14T16:40:43.661Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "24",
+    "object_repr": "Dr. Monika Sethi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2026-04-14T16:43:36.189Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "25",
+    "object_repr": "Dr. Harish Mehra",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2026-04-14T16:46:28.225Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "26",
+    "object_repr": "Dr. Pankhuri Sharma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2026-04-14T16:49:19.327Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "27",
+    "object_repr": "Dr. Rajesh Bhatia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2026-04-14T16:51:55.266Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "28",
+    "object_repr": "Dr. Alka Menon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2026-04-14T16:56:36.333Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "26",
+    "object_repr": "Dr. Pankhuri Sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2026-04-14T17:00:02.589Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "26",
+    "object_repr": "Dr. Pankhuri Sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2026-04-14T17:02:33.023Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "28",
+    "object_repr": "Dr. Alka Menon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2026-04-14T17:04:26.513Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "27",
+    "object_repr": "Dr. Rajesh Bhatia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2026-04-14T17:06:16.053Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "25",
+    "object_repr": "Dr. Harish Mehra",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2026-04-14T17:10:46.398Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "24",
+    "object_repr": "Dr. Monika Sethi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2026-04-14T17:11:10.673Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "23",
+    "object_repr": "Dr. Vinay Tandon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2026-04-14T17:11:38.766Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "22",
+    "object_repr": "Dr. Kavita Rana",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2026-04-14T17:14:36.718Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "22",
+    "object_repr": "Dr. Kavita Rana",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2026-04-14T17:15:38.478Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "21",
+    "object_repr": "Dr. Shalini Kapoor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2026-04-14T17:17:45.609Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "20",
+    "object_repr": "Dr. Meera Nair",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2026-04-14T17:18:21.168Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "19",
+    "object_repr": "Dr. Farhan Ali",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2026-04-14T17:22:44.730Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "18",
+    "object_repr": "Dr. Ananya Roy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2026-04-14T17:23:44.091Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "17",
+    "object_repr": "Dr. Iqbal Hussain",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2026-04-15T02:36:53.902Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "11",
+    "object_repr": "Dr. Faisal Ahmed",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2026-04-15T02:37:13.128Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "5",
+    "object_repr": "Dr. Adeel Khan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2026-04-15T07:24:01.336Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "16",
+    "object_repr": "Dr. Pooja Bansal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2026-04-15T07:29:12.152Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "15",
+    "object_repr": "Dr. Sameer Qureshi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2026-04-15T07:30:06.425Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "14",
+    "object_repr": "Dr. Neha Joshi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2026-04-15T07:35:59.703Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "13",
+    "object_repr": "Dr. Arjun Mehta",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2026-04-15T07:36:36.763Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "14",
+    "object_repr": "Dr. Neha Joshi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2026-04-15T07:38:18.456Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "13",
+    "object_repr": "Dr. Arjun Mehta",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2026-04-15T07:40:20.542Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "12",
+    "object_repr": "Dr. Riya Singh",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2026-04-15T07:41:00.078Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "11",
+    "object_repr": "Dr. Faisal Ahmed",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2026-04-15T07:41:40.416Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "10",
+    "object_repr": "Dr. Priya Sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2026-04-15T07:42:54.436Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "9",
+    "object_repr": "Dr. Imran Siddiqui",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2026-04-15T07:43:39.630Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "8",
+    "object_repr": "Dr. Nisha Gupta",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2026-04-15T07:45:06.950Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "5",
+    "object_repr": "Dr. Adeel Khan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2026-04-15T07:47:20.457Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "5",
+    "object_repr": "Dr. Adeel Khan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2026-04-15T07:48:15.448Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "6",
+    "object_repr": "Dr. Sana Malik",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2026-04-15T07:48:21.572Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "6",
+    "object_repr": "Dr. Sana Malik",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2026-04-15T07:48:48.736Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "7",
+    "object_repr": "Dr. Rohit Verma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2026-04-15T07:49:07.089Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "8",
+    "object_repr": "Dr. Nisha Gupta",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2026-04-15T07:49:31.826Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "9",
+    "object_repr": "Dr. Imran Siddiqui",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2026-04-15T07:49:54.897Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "10",
+    "object_repr": "Dr. Priya Sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2026-04-15T07:50:15.779Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "11",
+    "object_repr": "Dr. Faisal Ahmed",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2026-04-15T07:50:37.871Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "12",
+    "object_repr": "Dr. Riya Singh",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2026-04-15T07:50:57.756Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "13",
+    "object_repr": "Dr. Arjun Mehta",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2026-04-15T07:51:40.874Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "14",
+    "object_repr": "Dr. Neha Joshi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2026-04-15T07:51:58.199Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "15",
+    "object_repr": "Dr. Sameer Qureshi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2026-04-15T07:52:30.508Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "16",
+    "object_repr": "Dr. Pooja Bansal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doctor description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2026-04-15T07:53:06.188Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "17",
+    "object_repr": "Dr. Iqbal Hussain",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2026-04-15T08:00:25.458Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "29",
+    "object_repr": "Dr. Divyanshi gupta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2026-04-15T08:06:41.008Z",
+    "user": [
+      "lenovo"
+    ],
+    "content_type": [
+      "health",
+      "doctordetail"
+    ],
+    "object_id": "30",
+    "object_repr": "Dr. Mansi gautam",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]
